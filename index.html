@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>MY OJT PORFOLIO PROJECT</title>
+	<link rel="icon" type="image/png" href="images/male-technologist.png" hreflang="en-us">
+	<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+	<link rel="stylesheet" href="./css/styles.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+   <link type="text/javascript" src="main.js">
+	
+</head>
+<body>
+<!-- <div>
+	  <img src="images/k3n.png" alt="">
+</div>
+<div class="btn">
+         <span class="fas fa-bars"></span>
+      </div>
+      <nav class="sidebar">
+         <div class="text">
+            Menu
+         </div>
+         <ul>
+             <li class="active"><a href="index.html">Home</a></li>
+            <li>
+               <a href="#" class="feat-btn">School Activities
+               <span class="fas fa-caret-down first"></span>
+               </a>
+               <ul class="feat-show">
+                  <li><a href="CiteSchedule.html">CITE Schedule</a></li>
+                  <li><a href="WeatherWebscraping.html">Weather Scrape Data</a></li>
+                  <li><a href="YoutubeWebsraping.html">Yt Channel Scrape Data</a></li>
+                  <li><a href="CoVidUpdatewithTableau.html">CoVid Update using Tableau</a></li>
+                  <li><a href="GDPWebscraping.html">Trading Economics Web Srape GDP</a></li>
+		  <li><a href="https://queanjow.github.io/ISP.github.io/">WorkCLoud</a></li>
+               </ul>
+            </li>
+            <li>
+               <a href="#" class="serv-btn">Services
+               <span class="fas fa-caret-down second"></span>
+               </a>
+               <ul class="serv-show">
+                  <li><a href="#">App Design</a></li>
+                  <li><a href="#">Web Design</a></li>
+               </ul>
+            </li>
+            <li><a href="#">Overview</a></li> 
+         </ul>
+      </nav>-->
+     
+
+<div id = "site">
+	<div class="switch-wrapper"> 
+		</a>
+		<div class="sun"></div> 
+		<div class="toggle-wrapper">
+			<input type="checkbox" id="switch"  />
+			<label for="switch" id="switch1" >Toggle</label> 
+		</div>
+		<div class="moon"></div>
+	</div>
+
+	<header class="intro">
+		<h1 class="intro_hello">
+			Hello!
+			<span  id="wave" class="emoji wave-hand animated "></span>
+		</h1>
+		<h2 class="intro_tagline">
+			I'm
+			<div class="myname">Ken Desades</div>
+			 aka MCDO <br><br><br> 
+			 </p>
+			<div class="mytext">
+				<div class="content">
+					<div class=" container">
+						<ul class="list">
+							<li class="item">HAPIT</li>
+							<li class="item">NAKO</li>
+							<li class="item">GRADUATE</li>
+						</ul>
+					</div><br>
+				</div>
+			</div>
+			<span>"Bachelor of Science in Information Technology at Jose Maria College Foundation, Inc."
+			<span id="emojiwavehand" class="emoji technologist"></span>
+		</h2>
+		<h3 class="intro_contact">
+			<span>Get in touch</span>
+			<span class="emoji pointer"></span>
+			<span id="emailme">
+				<a href="https://www.google.com/intl/fil/gmail/about/" target="_blank" class="highlight-link">kndesades@gmail.com</a>
+			</span>
+		</h3>
+	</header>
+
+	<section class = "section background" >
+		<div class="section_title">READ</div>
+		<div class="section_content">
+			<p>
+				To view my completed SF 8 and IT practicum, please click the highlighted link below.
+			</p>
+			<a class="status" href="OJT_PORTFOLIO.pdf" target="_blank"> 
+				<div class="status_light"> 
+					<div class="status_light_ring"></div> 
+					<div class="status_light_led"></div> 
+				</div> 
+				<div class="status_message">
+					OJT PORTFOLIO
+				</div> 
+			</a>
+		</div>
+	</section>
+
+	<footer class="footer">
+	 	<div class="footer_copyright"> 
+	 		<div class="top"> 
+		</div>
+ 	</footer>
+	<button id="top-button" style="display: inline-block;"></button>
+	<script>
+         $('.btn').click(function(){
+           $(this).toggleClass("click");
+           $('.sidebar').toggleClass("show");
+         });
+           $('.feat-btn').click(function(){
+             $('nav ul .feat-show').toggleClass("show");
+             $('nav ul .first').toggleClass("rotate");
+           });
+           $('.serv-btn').click(function(){
+             $('nav ul .serv-show').toggleClass("show1");
+             $('nav ul .second').toggleClass("rotate");
+           });
+           $('nav ul li').click(function(){
+             $(this).addClass("active").siblings().removeClass("active");
+           });
+      </script>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
